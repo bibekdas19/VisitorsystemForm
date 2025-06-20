@@ -1,0 +1,4 @@
+Authentication\authenticateTest.class
+key\keyTest.class
+Authentication\signatureCreate.class
+Authentication\RequestBodyBuilder.class

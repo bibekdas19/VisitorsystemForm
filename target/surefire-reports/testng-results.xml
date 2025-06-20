@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-20T14:48:08 NPT" name="Surefire suite" finished-at="2025-06-20T14:48:10 NPT" duration-ms="1547">
+    <groups>
+    </groups>
+    <test started-at="2025-06-20T14:48:08 NPT" name="Surefire test" finished-at="2025-06-20T14:48:10 NPT" duration-ms="1547">
+      <class name="Authentication.authenticateTest">
+        <test-method signature="AuthenticateWithInvalidDevice()[pri:0, instance:Authentication.authenticateTest@5edacf20]" started-at="2025-06-20T14:48:08 NPT" name="AuthenticateWithInvalidDevice" finished-at="2025-06-20T14:48:08 NPT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuthenticateWithInvalidDevice -->
+        <test-method signature="AuthenticateWithInvalidLocation()[pri:0, instance:Authentication.authenticateTest@5edacf20]" started-at="2025-06-20T14:48:08 NPT" name="AuthenticateWithInvalidLocation" finished-at="2025-06-20T14:48:08 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuthenticateWithInvalidLocation -->
+        <test-method signature="AuthenticateWithNoDevice()[pri:0, instance:Authentication.authenticateTest@5edacf20]" started-at="2025-06-20T14:48:08 NPT" name="AuthenticateWithNoDevice" finished-at="2025-06-20T14:48:09 NPT" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuthenticateWithNoDevice -->
+        <test-method signature="AuthenticateWithNoLocation()[pri:0, instance:Authentication.authenticateTest@5edacf20]" started-at="2025-06-20T14:48:09 NPT" name="AuthenticateWithNoLocation" finished-at="2025-06-20T14:48:09 NPT" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuthenticateWithNoLocation -->
+        <test-method signature="AuthenticateWithNoUserAgent()[pri:0, instance:Authentication.authenticateTest@5edacf20]" started-at="2025-06-20T14:48:09 NPT" name="AuthenticateWithNoUserAgent" finished-at="2025-06-20T14:48:10 NPT" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuthenticateWithNoUserAgent -->
+        <test-method signature="AuthenticatewithInvalidEmail()[pri:0, instance:Authentication.authenticateTest@5edacf20]" started-at="2025-06-20T14:48:10 NPT" name="AuthenticatewithInvalidEmail" finished-at="2025-06-20T14:48:10 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuthenticatewithInvalidEmail -->
+        <test-method signature="AuthenticatewithInvalidPin()[pri:0, instance:Authentication.authenticateTest@5edacf20]" started-at="2025-06-20T14:48:10 NPT" name="AuthenticatewithInvalidPin" finished-at="2025-06-20T14:48:10 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuthenticatewithInvalidPin -->
+        <test-method signature="AuthenticatewithMissingEmail()[pri:0, instance:Authentication.authenticateTest@5edacf20]" started-at="2025-06-20T14:48:10 NPT" name="AuthenticatewithMissingEmail" finished-at="2025-06-20T14:48:10 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuthenticatewithMissingEmail -->
+        <test-method signature="AuthenticatewithMissingPin()[pri:0, instance:Authentication.authenticateTest@5edacf20]" started-at="2025-06-20T14:48:10 NPT" name="AuthenticatewithMissingPin" finished-at="2025-06-20T14:48:10 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuthenticatewithMissingPin -->
+        <test-method signature="AuthenticatewithValidDetails()[pri:0, instance:Authentication.authenticateTest@5edacf20]" started-at="2025-06-20T14:48:10 NPT" name="AuthenticatewithValidDetails" finished-at="2025-06-20T14:48:10 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuthenticatewithValidDetails -->
+        <test-method signature="AuthenticatewithWrongPin()[pri:0, instance:Authentication.authenticateTest@5edacf20]" started-at="2025-06-20T14:48:10 NPT" name="AuthenticatewithWrongPin" finished-at="2025-06-20T14:48:10 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuthenticatewithWrongPin -->
+      </class> <!-- Authentication.authenticateTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
