@@ -347,7 +347,7 @@ public class authenticateTest extends keyTest {
         assertFalse(description.isEmpty(), "Description is empty");
         assertFalse(code.isEmpty(), "Code is empty");
         assertTrue(code.startsWith("VST_LOGIN_REMAINING_ATTEMPT"), "Code does not start with expected prefix");
-        assertEquals(description,"Authentication Failed.");
+        assertEquals(description,"Authentication failed.");
         
     }
     

@@ -1,5 +1,6 @@
 Authentication\authenticatevalidTest.class
-Authentication\authenticateTest.class
 key\keyTest.class
+Authentication\authenticateTest.class
+Authentication\LogoutTest.class
 Authentication\signatureCreate.class
 Authentication\RequestBodyBuilder.class

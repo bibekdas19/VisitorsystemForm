@@ -28,7 +28,7 @@ public class authenticatevalidTest extends keyTest{
             .when()
                 .post("/authenticate")
             .then()
-                .statusCode(400)
+                .statusCode(200)
                 .log().all()
                 .extract().response();
         
