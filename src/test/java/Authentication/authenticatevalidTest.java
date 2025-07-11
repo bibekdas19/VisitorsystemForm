@@ -1,6 +1,6 @@
 package Authentication;
-import key.keyTest;
-import utils.ConfigManager;
+import key.*;
+import utils.*;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -8,8 +8,8 @@ import io.restassured.response.*;
 import static org.testng.Assert.*;
 import java.util.*;
 
+
 public class authenticatevalidTest extends keyTest{
-    
     
     @Test
     public void authenticatewithValidCredentials() throws Exception {
@@ -84,6 +84,7 @@ public class authenticatevalidTest extends keyTest{
         assertFalse(loginAttemptCountPin.isEmpty(), "loginAttemptCount is missing");
         assertFalse(loginAttemptCountBiometric.isEmpty(), "isBiometric is missing");
         assertFalse(registrationDate.isEmpty(),"registration date is missing");
+        
         
         //verifying the response signature
         String responseBodyWithoutSignature = response.asString().replaceFirst("\"signature\"\\s*:\\s*\"[^\"]*\",?", ""); 

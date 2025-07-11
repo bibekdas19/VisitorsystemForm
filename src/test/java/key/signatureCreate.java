@@ -1,4 +1,4 @@
-package Authentication;
+package key;
 import javax.crypto.Mac;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
@@ -9,6 +9,9 @@ import java.util.Date;
 import java.util.TimeZone;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+
 
 import javax.crypto.Cipher;
 
@@ -141,6 +144,15 @@ public class signatureCreate {
 
         // 5. Convert to string
         return new String(decryptedBytes, "UTF-8");
+    }
+    
+    public static String generateResponseSignature(String jsonResponse,String secretkey) throws Exception {
+        JsonObject jsonObject = JsonParser.parseString(jsonResponse).getAsJsonObject();
+        jsonObject.remove("signature");
+               //set the jsonObject to string
+        String dataToSign = jsonObject.toString();
+        return generateHMACSHA256(dataToSign,secretkey);
+        
     }
     
     

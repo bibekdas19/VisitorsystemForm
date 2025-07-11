@@ -1,6 +1,6 @@
 package Authentication;
 
-import key.keyTest;
+import key.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.LinkedHashMap;
 import java.util.Map;

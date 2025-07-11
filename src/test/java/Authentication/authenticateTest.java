@@ -1,5 +1,5 @@
 package Authentication;
-import key.keyTest;
+import key.*;
 import utils.ConfigManager;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
