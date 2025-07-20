@@ -1,6 +1,13 @@
 Authentication\authenticatevalidTest.class
 key\keyTest.class
+Profile\documentUploadTest.class
+Profile\ImageUpload.class
+Pin\ChangePinTest.class
+Profile\getProfileTest.class
+Pin\RequestBody.class
+key\signatureCreate.class
 Authentication\authenticateTest.class
 Authentication\LogoutTest.class
-Authentication\signatureCreate.class
+Profile\selfieUploadTest.class
+Profile\UpdateProfileTest.class
 Authentication\RequestBodyBuilder.class

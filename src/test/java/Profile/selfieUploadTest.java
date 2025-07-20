@@ -40,7 +40,7 @@ public class selfieUploadTest extends keyTest {
     
     @Test
     public void selfieUploadwithoutLocation() throws Exception {
-        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(selfie)){
             Response response = given()
@@ -49,7 +49,7 @@ public class selfieUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("selfie","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("selfie","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/selfie")
                     .then()
@@ -69,7 +69,7 @@ public class selfieUploadTest extends keyTest {
     
     @Test
     public void selfieUploadwithoutDevice() throws Exception {
-        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(selfie)){
             Response response = given()
@@ -78,7 +78,7 @@ public class selfieUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("selfie","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("selfie","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/selfie")
                     .then()
@@ -98,7 +98,7 @@ public class selfieUploadTest extends keyTest {
     
     @Test
     public void selfieUploadwithoutUserAgent() throws Exception {
-        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(selfie)){
             Response response = given()
@@ -107,7 +107,7 @@ public class selfieUploadTest extends keyTest {
                     .header("User-Agent", "")
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("selfie","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("selfie","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/selfie")
                     .then()
@@ -127,7 +127,7 @@ public class selfieUploadTest extends keyTest {
     
     @Test
     public void selfieUploadwithoutAuth() throws Exception {
-        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(selfie)){
             Response response = given()
@@ -136,7 +136,7 @@ public class selfieUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN","")
                     .header("Accept","*/*")
-                    .multiPart("selfie","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("selfie","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/selfie")
                     .then()
@@ -156,7 +156,7 @@ public class selfieUploadTest extends keyTest {
     
     @Test
     public void selfieUploadwithInvalidDevice() throws Exception {
-        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(selfie)){
             Response response = given()
@@ -165,7 +165,7 @@ public class selfieUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("selfie","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("selfie","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/selfie")
                     .then()
@@ -185,7 +185,7 @@ public class selfieUploadTest extends keyTest {
     
     @Test
     public void selfieUploadwithInvalidLocation() throws Exception {
-        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(selfie)){
             Response response = given()
@@ -194,7 +194,7 @@ public class selfieUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("selfie","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("selfie","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/selfie")
                     .then()
@@ -214,7 +214,7 @@ public class selfieUploadTest extends keyTest {
     
     @Test
     public void selfieUploadwithInvalidAuth() throws Exception {
-       File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+       File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(selfie)){
             Response response = given()
@@ -223,7 +223,7 @@ public class selfieUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN","mm")
                     .header("Accept","*/*")
-                    .multiPart("selfie","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("selfie","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/selfie")
                     .then()
@@ -243,7 +243,7 @@ public class selfieUploadTest extends keyTest {
     
     @Test
     public void selfieUploadwithOpenedMouthImage() throws Exception {
-        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(selfie)){
             Response response = given()
@@ -252,7 +252,7 @@ public class selfieUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("selfie","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("selfie","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/selfie")
                     .then()
@@ -272,7 +272,7 @@ public class selfieUploadTest extends keyTest {
     
     @Test
     public void selfieUploadwithEyesClosed() throws Exception {
-       File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+       File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(selfie)){
             Response response = given()
@@ -281,7 +281,7 @@ public class selfieUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("selfie","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("selfie","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/selfie")
                     .then()
@@ -301,7 +301,7 @@ public class selfieUploadTest extends keyTest {
     
     @Test
     public void selfieUploadwithSpoofImage() throws Exception {
-        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(selfie)){
             Response response = given()
@@ -310,7 +310,7 @@ public class selfieUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("selfie","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("selfie","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/selfie")
                     .then()
@@ -330,7 +330,7 @@ public class selfieUploadTest extends keyTest {
     
     @Test
     public void selfieUploadwithDarkImage() throws Exception {
-        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(selfie)){
             Response response = given()
@@ -339,7 +339,7 @@ public class selfieUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("selfie","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("selfie","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/selfie")
                     .then()
@@ -359,7 +359,7 @@ public class selfieUploadTest extends keyTest {
     
     @Test
     public void selfieUploadwithFaceObstruct() throws Exception {
-       File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+       File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(selfie)){
             Response response = given()
@@ -368,7 +368,7 @@ public class selfieUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("selfie","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("selfie","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/selfie")
                     .then()
@@ -388,7 +388,7 @@ public class selfieUploadTest extends keyTest {
     
     @Test
     public void selfieUploadwithInvalidImage() throws Exception {
-        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.png");
+        File selfie = ImageUpload.uploadImage("images/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(selfie)){
             Response response = given()
@@ -397,7 +397,7 @@ public class selfieUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("selfie","chinese.png",fis,"image/jpeg")
+                    .multiPart("selfie","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/selfie")
                     .then()
@@ -417,7 +417,7 @@ public class selfieUploadTest extends keyTest {
     
     @Test
     public void selfieUploadwithValidImage() throws Exception {
-        File selfie = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.png");
+        File selfie = ImageUpload.uploadImage("images/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(selfie)){
             Response response = given()
@@ -426,7 +426,7 @@ public class selfieUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("selfie","chinese.png",fis,"image/jpeg")
+                    .multiPart("selfie","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/selfie")
                     .then()

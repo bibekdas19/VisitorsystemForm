@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="9.138" tests="20" errors="0" skipped="8" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15.447" tests="103" errors="0" skipped="86" failures="8">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Windows\Temp\surefire15192294756515839940\surefirebooter-20250622122545100_3.jar C:\Windows\Temp\surefire15192294756515839940 2025-06-22T12-25-44_902-jvmRun1 surefire-20250622122545100_1tmp surefire_0-20250622122545100_2tmp"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire10430653193410422808\surefirebooter-20250720150714679_3.jar C:\Windows\Temp\surefire10430653193410422808 2025-07-20T15-07-14_322-jvmRun1 surefire-20250720150714679_1tmp surefire_0-20250720150714679_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Dell\Documents\NetBeansProjects\VisitorService\target\test-classes;C:\Users\Dell\Documents\NetBeansProjects\VisitorService\target\classes;C:\Users\Dell\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Dell\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Dell\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Dell\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Dell\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Dell\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Dell\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Dell\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Dell\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Dell\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Dell\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Dell\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Dell\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Dell\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Dell\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Dell\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Dell\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\Dell\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\Dell\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\Dell\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\Dell\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire15192294756515839940\surefirebooter-20250622122545100_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire10430653193410422808\surefirebooter-20250720150714679_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
@@ -59,10 +59,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="AuthenticateWithInvalidDevice" classname="Authentication.authenticateTest" time="0.513">
+  <testcase name="AuthenticateWithInvalidDevice" classname="Authentication.authenticateTest" time="0.671">
     <system-out><![CDATA[Loaded configuration for environment: test
 HTTP/1.1 422 Unprocessable Entity
-Date: Sun, 22 Jun 2025 06:40:49 GMT
+Date: Sun, 20 Jul 2025 09:22:24 GMT
 Server: MOCO Visitor Server
 Access-Control-Allow-Origin: *
 Strict-Transport-Security: max-age=31536000; includeSubDomains
@@ -81,9 +81,9 @@ Connection: Keep-Alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="AuthenticateWithInvalidLocation" classname="Authentication.authenticateTest" time="0.217">
+  <testcase name="AuthenticateWithInvalidLocation" classname="Authentication.authenticateTest" time="0.256">
     <system-out><![CDATA[HTTP/1.1 422 Unprocessable Entity
-Date: Sun, 22 Jun 2025 06:40:49 GMT
+Date: Sun, 20 Jul 2025 09:22:25 GMT
 Server: MOCO Visitor Server
 Access-Control-Allow-Origin: *
 Strict-Transport-Security: max-age=31536000; includeSubDomains
@@ -102,9 +102,9 @@ Connection: Keep-Alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="AuthenticateWithNoDevice" classname="Authentication.authenticateTest" time="0.34">
+  <testcase name="AuthenticateWithNoDevice" classname="Authentication.authenticateTest" time="0.35">
     <system-out><![CDATA[HTTP/1.1 400 Bad Request
-Date: Sun, 22 Jun 2025 06:40:50 GMT
+Date: Sun, 20 Jul 2025 09:22:25 GMT
 Server: MOCO Visitor Server
 Access-Control-Allow-Origin: *
 Strict-Transport-Security: max-age=31536000; includeSubDomains
@@ -122,9 +122,9 @@ Connection: close
 }
 ]]></system-out>
   </testcase>
-  <testcase name="AuthenticateWithNoLocation" classname="Authentication.authenticateTest" time="0.372">
+  <testcase name="AuthenticateWithNoLocation" classname="Authentication.authenticateTest" time="0.325">
     <system-out><![CDATA[HTTP/1.1 400 Bad Request
-Date: Sun, 22 Jun 2025 06:40:50 GMT
+Date: Sun, 20 Jul 2025 09:22:25 GMT
 Server: MOCO Visitor Server
 Access-Control-Allow-Origin: *
 Strict-Transport-Security: max-age=31536000; includeSubDomains
@@ -142,9 +142,9 @@ Connection: close
 }
 ]]></system-out>
   </testcase>
-  <testcase name="AuthenticateWithNoUserAgent" classname="Authentication.authenticateTest" time="0.311">
+  <testcase name="AuthenticateWithNoUserAgent" classname="Authentication.authenticateTest" time="0.267">
     <system-out><![CDATA[HTTP/1.1 400 Bad Request
-Date: Sun, 22 Jun 2025 06:40:50 GMT
+Date: Sun, 20 Jul 2025 09:22:26 GMT
 Server: MOCO Visitor Server
 Access-Control-Allow-Origin: *
 Strict-Transport-Security: max-age=31536000; includeSubDomains
@@ -162,9 +162,9 @@ Connection: close
 }
 ]]></system-out>
   </testcase>
-  <testcase name="AuthenticatewithInvalidEmail" classname="Authentication.authenticateTest" time="0.241">
+  <testcase name="AuthenticatewithInvalidEmail" classname="Authentication.authenticateTest" time="0.346">
     <system-out><![CDATA[HTTP/1.1 422 Unprocessable Entity
-Date: Sun, 22 Jun 2025 06:40:51 GMT
+Date: Sun, 20 Jul 2025 09:22:26 GMT
 Server: MOCO Visitor Server
 Access-Control-Allow-Origin: *
 Strict-Transport-Security: max-age=31536000; includeSubDomains
@@ -183,9 +183,9 @@ Connection: Keep-Alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="AuthenticatewithInvalidPin" classname="Authentication.authenticateTest" time="0.313">
+  <testcase name="AuthenticatewithInvalidPin" classname="Authentication.authenticateTest" time="0.367">
     <system-out><![CDATA[HTTP/1.1 401 Unauthorized
-Date: Sun, 22 Jun 2025 06:40:51 GMT
+Date: Sun, 20 Jul 2025 09:22:26 GMT
 Server: MOCO Visitor Server
 Access-Control-Allow-Origin: *
 Strict-Transport-Security: max-age=31536000; includeSubDomains
@@ -204,52 +204,15 @@ Connection: Keep-Alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="AuthenticatewithMissingEmail" classname="Authentication.authenticateTest" time="0.264">
-    <system-out><![CDATA[HTTP/1.1 400 Bad Request
-Date: Sun, 22 Jun 2025 06:40:51 GMT
-Server: MOCO Visitor Server
-Access-Control-Allow-Origin: *
-Strict-Transport-Security: max-age=31536000; includeSubDomains
-X-Frame-Options: SAMEORIGIN
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Content-Type: application/json
-Content-Length: 68
-Content-Security-Policy: default-src 'self' visitor0.moco.com.np https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://maps.googleapis.com; form-action 'self';  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; connect-src 'self' https://www.moco.com.np https://maps.googleapis.com; img-src 'self' https://maps.gstatic.com  https://maps.googleapis.com blob: data:;
-Connection: close
-
-{
-    "code": "GNR_PARAM_MISSING",
-    "description": "Email cannot be blank.."
-}
-]]></system-out>
-  </testcase>
-  <testcase name="AuthenticatewithMissingPin" classname="Authentication.authenticateTest" time="0.574">
-    <system-out><![CDATA[HTTP/1.1 400 Bad Request
-Date: Sun, 22 Jun 2025 06:40:52 GMT
-Server: MOCO Visitor Server
-Access-Control-Allow-Origin: *
-Strict-Transport-Security: max-age=31536000; includeSubDomains
-X-Frame-Options: SAMEORIGIN
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Content-Type: application/json
-Content-Length: 57
-Content-Security-Policy: default-src 'self' visitor0.moco.com.np https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://maps.googleapis.com; form-action 'self';  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; connect-src 'self' https://www.moco.com.np https://maps.googleapis.com; img-src 'self' https://maps.gstatic.com  https://maps.googleapis.com blob: data:;
-Connection: close
-
-{
-    "code": "GNR_PARAM_MISSING",
-    "description": "Bad Request."
-}
-]]></system-out>
-  </testcase>
-  <testcase name="AuthenticatewithWrongPin" classname="Authentication.authenticateTest" time="0.207">
-    <failure message="Code does not start with expected prefix expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Code does not start with expected prefix expected [true] but found [false]
+  <testcase name="AuthenticatewithMissingEmail" classname="Authentication.authenticateTest" time="0.368">
+    <failure message="expected [Email cannot be blank..] but found [Email cannot be blank.]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Email cannot be blank..] but found [Email cannot be blank.]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at Authentication.authenticateTest.AuthenticatewithWrongPin(authenticateTest.java:349)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at Authentication.authenticateTest.AuthenticatewithMissingEmail(authenticateTest.java:214)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -282,8 +245,8 @@ Connection: close
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[HTTP/1.1 401 Unauthorized
-Date: Sun, 22 Jun 2025 06:40:52 GMT
+    <system-out><![CDATA[HTTP/1.1 400 Bad Request
+Date: Sun, 20 Jul 2025 09:22:27 GMT
 Server: MOCO Visitor Server
 Access-Control-Allow-Origin: *
 Strict-Transport-Security: max-age=31536000; includeSubDomains
@@ -291,18 +254,58 @@ X-Frame-Options: SAMEORIGIN
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Content-Type: application/json
-Content-Length: 68
+Content-Length: 67
+Content-Security-Policy: default-src 'self' visitor0.moco.com.np https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://maps.googleapis.com; form-action 'self';  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; connect-src 'self' https://www.moco.com.np https://maps.googleapis.com; img-src 'self' https://maps.gstatic.com  https://maps.googleapis.com blob: data:;
+Connection: close
+
+{
+    "code": "GNR_PARAM_MISSING",
+    "description": "Email cannot be blank."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="AuthenticatewithMissingPin" classname="Authentication.authenticateTest" time="0.354">
+    <system-out><![CDATA[HTTP/1.1 400 Bad Request
+Date: Sun, 20 Jul 2025 09:22:27 GMT
+Server: MOCO Visitor Server
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Content-Type: application/json
+Content-Length: 57
+Content-Security-Policy: default-src 'self' visitor0.moco.com.np https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://maps.googleapis.com; form-action 'self';  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; connect-src 'self' https://www.moco.com.np https://maps.googleapis.com; img-src 'self' https://maps.gstatic.com  https://maps.googleapis.com blob: data:;
+Connection: close
+
+{
+    "code": "GNR_PARAM_MISSING",
+    "description": "Bad Request."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="AuthenticatewithWrongPin" classname="Authentication.authenticateTest" time="0.266">
+    <system-out><![CDATA[HTTP/1.1 401 Unauthorized
+Date: Sun, 20 Jul 2025 09:22:27 GMT
+Server: MOCO Visitor Server
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Content-Type: application/json
+Content-Length: 79
 Content-Security-Policy: default-src 'self' visitor0.moco.com.np https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://maps.googleapis.com; form-action 'self';  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; connect-src 'self' https://www.moco.com.np https://maps.googleapis.com; img-src 'self' https://maps.gstatic.com  https://maps.googleapis.com blob: data:;
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 
 {
-    "code": "VST_LOGIN_FREEZE_2",
+    "code": "VST_LOGIN_REMAINING_ATTEMPT_5",
     "description": "Authentication failed."
 }
 ]]></system-out>
   </testcase>
-  <testcase name="authenticatewithValidCredentials" classname="Authentication.authenticatevalidTest" time="1.744">
+  <testcase name="authenticatewithValidCredentials" classname="Authentication.authenticatevalidTest" time="0.339">
     <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <401>.
@@ -363,7 +366,7 @@ Expected status code <200> but was <401>.
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
   </testcase>
-  <testcase name="LogIn" classname="Authentication.LogoutTest" time="2.19">
+  <testcase name="LogIn" classname="Authentication.LogoutTest" time="0.648">
     <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <401>.
@@ -443,5 +446,524 @@ Expected status code <200> but was <401>.
   </testcase>
   <testcase name="logoutwithoutLocation" classname="Authentication.LogoutTest" time="0.0">
     <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="LogIn" classname="Pin.ChangePinTest" time="0.223">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at Pin.ChangePinTest.LogIn(ChangePinTest.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="changePinwhenInvalidSignature" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwhenNewPinCriteria" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwhenNewPinEmpty" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwhenNewPinPlain" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwhenOldPinEmpty" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwhenOldPinIncorrect" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwhenOldPinPlain" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwhenOldPinSamewithNewPin" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwhenSignatureEmpty" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwithInvalidAuth" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwithInvalidDevice" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwithInvalidLocation" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwithInvalidUserAgent" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwithValidCredentials" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwithoutAuth" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwithoutDeviceId" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwithoutLocation" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="changePinwithoutUserAgent" classname="Pin.ChangePinTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="logOut" classname="Pin.ChangePinTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="LogIn" classname="Profile.documentUploadTest" time="0.277">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at Profile.documentUploadTest.LogIn(documentUploadTest.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="documentUploadwithExpiredDocument" classname="Profile.documentUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="documentUploadwithInvalidAuth" classname="Profile.documentUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="documentUploadwithInvalidDevice" classname="Profile.documentUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="documentUploadwithInvalidImage" classname="Profile.documentUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="documentUploadwithInvalidLocation" classname="Profile.documentUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="documentUploadwithUnclearDocument" classname="Profile.documentUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="documentUploadwithValidImage" classname="Profile.documentUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="documentUploadwithdifferentpersonDocument" classname="Profile.documentUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="documentUploadwithoutAuth" classname="Profile.documentUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="documentUploadwithoutDevice" classname="Profile.documentUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="documentUploadwithoutLocation" classname="Profile.documentUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="documentUploadwithoutUserAgent" classname="Profile.documentUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="LogIn" classname="Profile.getProfileTest" time="0.438">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at Profile.getProfileTest.LogIn(getProfileTest.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="getProfilewithInvalidAuth" classname="Profile.getProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="getProfilewithInvalidDevice" classname="Profile.getProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="getProfilewithInvalidLocation" classname="Profile.getProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="getProfilewithInvalidUserAgent" classname="Profile.getProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="getProfilewithValidCredentials" classname="Profile.getProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="getProfilewithoutAuth" classname="Profile.getProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="getProfilewithoutDevice" classname="Profile.getProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="getProfilewithoutLocation" classname="Profile.getProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="getProfilewithoutUserAgent" classname="Profile.getProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="LogIn" classname="Profile.selfieUploadTest" time="0.227">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at Profile.selfieUploadTest.LogIn(selfieUploadTest.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="selfieUploadwithDarkImage" classname="Profile.selfieUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="selfieUploadwithEyesClosed" classname="Profile.selfieUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="selfieUploadwithFaceObstruct" classname="Profile.selfieUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="selfieUploadwithInvalidAuth" classname="Profile.selfieUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="selfieUploadwithInvalidDevice" classname="Profile.selfieUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="selfieUploadwithInvalidImage" classname="Profile.selfieUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="selfieUploadwithInvalidLocation" classname="Profile.selfieUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="selfieUploadwithOpenedMouthImage" classname="Profile.selfieUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="selfieUploadwithSpoofImage" classname="Profile.selfieUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="selfieUploadwithValidImage" classname="Profile.selfieUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="selfieUploadwithoutAuth" classname="Profile.selfieUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="selfieUploadwithoutDevice" classname="Profile.selfieUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="selfieUploadwithoutLocation" classname="Profile.selfieUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="selfieUploadwithoutUserAgent" classname="Profile.selfieUploadTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="LogIn" classname="Profile.UpdateProfileTest" time="0.268">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at Profile.UpdateProfileTest.LogIn(UpdateProfileTest.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="updateProfilewithInvalidAuth" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithInvalidCountry" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithInvalidDateOfBirth" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithInvalidDevice" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithInvalidDocumentNumber" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithInvalidDocumentType" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithInvalidExpiryDate" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithInvalidGender" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithInvalidLocation" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithInvalidSignature" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithInvalidUserAgent" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithValidParameters" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithoutAuth" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithoutCountry" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithoutDateofBirth" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithoutDocumentNumber" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithoutDocumentType" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithoutFullName" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithoutGender" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithoutLocation" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithoutSignature" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithoutUserAgent" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="updateProfilewithoutdevice" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;"/>
+  </testcase>
+  <testcase name="logOut" classname="Profile.UpdateProfileTest" time="0.0">
+    <skipped/>
   </testcase>
 </testsuite>

@@ -1,2 +1,3 @@
 com\moco\visitorservice\VisitorService.class
 utils\ConfigManager.class
+utils\AuthContext.class

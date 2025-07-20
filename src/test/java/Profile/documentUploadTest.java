@@ -41,7 +41,7 @@ public class documentUploadTest extends keyTest {
     
     @Test
     public void documentUploadwithoutLocation() throws Exception {
-        File document = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File document = ImageUpload.uploadImage("images/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(document)){
             Response response = given()
@@ -50,7 +50,7 @@ public class documentUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("document","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("document","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/document")
                     .then()
@@ -70,7 +70,7 @@ public class documentUploadTest extends keyTest {
     
     @Test
     public void documentUploadwithoutDevice() throws Exception {
-        File document = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File document = ImageUpload.uploadImage("images/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(document)){
             Response response = given()
@@ -79,7 +79,7 @@ public class documentUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("document","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("document","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/document")
                     .then()
@@ -99,7 +99,7 @@ public class documentUploadTest extends keyTest {
     
     @Test
     public void documentUploadwithoutUserAgent() throws Exception {
-        File document = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File document = ImageUpload.uploadImage("images/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(document)){
             Response response = given()
@@ -108,7 +108,7 @@ public class documentUploadTest extends keyTest {
                     .header("User-Agent", "")
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("document","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("document","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/document")
                     .then()
@@ -128,7 +128,7 @@ public class documentUploadTest extends keyTest {
     
     @Test
     public void documentUploadwithoutAuth() throws Exception {
-        File document = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File document = ImageUpload.uploadImage("images/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(document)){
             Response response = given()
@@ -137,7 +137,7 @@ public class documentUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN","")
                     .header("Accept","*/*")
-                    .multiPart("document","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("document","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/document")
                     .then()
@@ -157,7 +157,7 @@ public class documentUploadTest extends keyTest {
     
     @Test
     public void documentUploadwithInvalidDevice() throws Exception {
-        File document = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File document = ImageUpload.uploadImage("images/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(document)){
             Response response = given()
@@ -166,7 +166,7 @@ public class documentUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("document","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("document","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/document")
                     .then()
@@ -186,7 +186,7 @@ public class documentUploadTest extends keyTest {
     
     @Test
     public void documentUploadwithInvalidLocation() throws Exception {
-        File document = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File document = ImageUpload.uploadImage("images/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(document)){
             Response response = given()
@@ -195,7 +195,7 @@ public class documentUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("document","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("document","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/document")
                     .then()
@@ -215,7 +215,7 @@ public class documentUploadTest extends keyTest {
     
     @Test
     public void documentUploadwithInvalidAuth() throws Exception {
-       File document = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+       File document = ImageUpload.uploadImage("images/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(document)){
             Response response = given()
@@ -224,7 +224,7 @@ public class documentUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN","mm")
                     .header("Accept","*/*")
-                    .multiPart("document","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("document","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/document")
                     .then()
@@ -244,7 +244,7 @@ public class documentUploadTest extends keyTest {
     
     @Test
     public void documentUploadwithExpiredDocument() throws Exception {
-        File document = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File document = ImageUpload.uploadImage("images/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(document)){
             Response response = given()
@@ -253,7 +253,7 @@ public class documentUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("document","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("document","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/document")
                     .then()
@@ -273,7 +273,7 @@ public class documentUploadTest extends keyTest {
     
     @Test
     public void documentUploadwithUnclearDocument() throws Exception {
-       File document = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+       File document = ImageUpload.uploadImage("images/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(document)){
             Response response = given()
@@ -282,7 +282,7 @@ public class documentUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("document","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("document","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/document")
                     .then()
@@ -302,7 +302,7 @@ public class documentUploadTest extends keyTest {
     
     @Test
     public void documentUploadwithdifferentpersonDocument() throws Exception {
-        File document = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.jpg");
+        File document = ImageUpload.uploadImage("images/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(document)){
             Response response = given()
@@ -311,7 +311,7 @@ public class documentUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("document","chinese.jpg",fis,"image/jpeg")
+                    .multiPart("document","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/document")
                     .then()
@@ -331,7 +331,7 @@ public class documentUploadTest extends keyTest {
 
     @Test
     public void documentUploadwithInvalidImage() throws Exception {
-        File document = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.png");
+        File document = ImageUpload.uploadImage("images/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(document)){
             Response response = given()
@@ -340,7 +340,7 @@ public class documentUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("document","chinese.png",fis,"image/jpeg")
+                    .multiPart("document","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/document")
                     .then()
@@ -360,7 +360,7 @@ public class documentUploadTest extends keyTest {
     
     @Test
     public void documentUploadwithValidImage() throws Exception {
-        File document = ImageUpload.uploadImage("C:/Users/Dell/Downloads/chinese.png");
+        File document = ImageUpload.uploadImage("images/openmouth.jpg");
         
         try(FileInputStream fis = new FileInputStream(document)){
             Response response = given()
@@ -369,7 +369,7 @@ public class documentUploadTest extends keyTest {
                     .header("User-Agent", ConfigManager.get("User-Agent"))
                     .header("X-AUTH-TOKEN",AuthToken)
                     .header("Accept","*/*")
-                    .multiPart("document","chinese.png",fis,"image/jpeg")
+                    .multiPart("document","openmouth.jpg",fis,"image/jpeg")
                     .when()
                     .post("/document")
                     .then()
